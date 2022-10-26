@@ -1,0 +1,80 @@
+@media only screen and (max-width: 768px) {
+  .flavorContent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Fimg {
+    max-width: 150px;
+
+  }
+ 
+  .flavorData {
+    margin-top: -120px;
+    margin-left: -10px;
+   
+  }
+
+  
+}
+
+.flavorContent {
+  display: flex;
+  gap: 190px;
+  padding-top: 160px;
+}
+.flavorData {
+  padding: 10px;
+  padding-right: 125px;
+}
+.Fimg {
+  border-radius: 220px 220px 0 0;
+}
+.flavorImgBox {
+  background: #3c5049;
+}
+.flavorImg {
+  position: relative;
+  bottom: 85px;
+  left: 125px;
+}
+.flavor-p1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #456658;
+}
+.flavor-p2 {
+  font-family: "Glamour Absolute";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
+  line-height: 64px;
+  letter-spacing: 0.04em;
+  color: #2a3833;
+}
+.flavor-p3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  letter-spacing: 0.08em;
+  color: #3c5049;
+}
+.pride {
+
+
+  text-align: right;
+  margin-top: -110px;
+
+  font-family: "Glamour Absolute";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20vw;
+  line-height: 320px;
+  letter-spacing: 0.04em;
+  color: rgba(60, 80, 73, 0.1);
+}

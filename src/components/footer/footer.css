@@ -1,0 +1,81 @@
+@media only screen and (max-width: 600px) {
+    .footerBottom{
+    
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+.footerContainer{
+    max-width: 1280px;
+   
+    background: #456658;
+    margin-top: 330px;
+
+}
+.footerContents{
+    
+    max-width: 1110px;
+    margin: auto;
+    padding: 50px;
+}
+.footerhead{
+    text-align: center;
+
+}
+.footerhead h2{
+    font-family: 'Glamour Absolute';
+font-style: normal;
+font-weight: 600;
+font-size: 4vw;
+line-height: 64px;
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+}
+.footerBottom{
+    
+    display: flex;
+    gap: 16px;
+}
+.footerCardA{
+    
+    text-align: center;
+    background: #FFFFFF;
+}
+.footerCardA p{
+    padding-top: 40px;
+
+}
+
+.footerL{
+   padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footerLine{
+     
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+
+    width: 180px;
+height: 3px;
+margin: auto;
+}
+.fLeft{
+    padding: 10px;
+    float: left;
+ 
+}
+.fRight{
+    padding: 10px;
+    float: right;
+ 
+}
+.ads{
+    
+color: rgba(202, 184, 171, 0.58);
+}

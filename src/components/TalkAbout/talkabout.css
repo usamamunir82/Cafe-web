@@ -1,0 +1,152 @@
+@media only screen and (max-width: 768px) {
+    .talkContent{
+        margin-left: -120px;
+    }
+ 
+    .talkContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .talkRight{
+
+        max-width: 270px;
+        max-height: 250px;
+        margin-top: 200px;
+    }
+    .talkRight p{
+margin-right: -90px;
+margin-top: -50px;
+    }
+    .talkContent{
+        max-width: 600px;
+    }
+    .talkImages{
+        max-width: 400px;
+    }
+   
+}
+
+
+/* @media only screen and (max-width: 960px) {
+    .talkRight p{
+       
+        font-size: 0.5em;
+        margin-right: -60px;
+
+    }
+
+}
+@media only screen and (max-width: 794px) {
+    .talkRight p{
+       
+        font-size: 0.5em;
+        margin-right: -120px;
+
+    }
+ 
+
+} */
+/* @media only screen and (max-width: 786px) {
+    .talkContent{
+        margin-left: -120px;
+    }
+}
+@media only screen and (max-width: 694px) {
+    .talkContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .talkRight{
+        max-width: 300px;
+        max-height: 300px;
+        margin-top: 210px;
+    }
+
+}
+@media only screen and (max-width: 420px) {
+    .talkContainer{
+        margin-top: -120px;
+    } 
+
+}
+@media only screen and (max-width: 300px) {
+    .talkRight{
+        max-height: 350px;
+    }
+
+} */
+
+.talkContainer{
+    display: flex;
+    gap: 100px;
+    padding-top: 20px;
+}
+.talkContent{
+
+    padding-left: 125px;
+    padding-top: 65px;
+}
+.talkContent p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+letter-spacing: 0.08em;
+color: #3C5049;
+}
+.talkButon button{
+    color: #FFFFFF;
+    border: none;
+    width: 157px;
+    height: 46px;
+    background: #3C5049;
+}
+.talkButon{
+    padding-top: 20px;
+}
+.talkRight p{
+   padding-left: 20px;
+    padding-top: 64px;
+
+    padding-right: 130px;
+  
+ 
+    font-family: 'Glamour Absolute';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 55px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+}
+
+
+.talkRight{
+    
+  
+    background: #456658;
+ 
+    position: relative;
+    height: 700px;
+   
+}
+.talkImages{
+
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    z-index: 1;
+}
+.talkImages img{
+    width: 100%;
+    padding-top: 30px;
+   
+}
+.talk2{
+    padding-top: 60px;
+}
+.talk3{
+    padding-top: 120px;
+}

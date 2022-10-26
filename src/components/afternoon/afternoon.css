@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px) {
+    .afternoonContainer{
+display: flex;
+flex-wrap: wrap;
+}
+.afternoonImg img{
+    max-width: 300px;
+}
+.afternoonImg div{
+width: 290px;
+height: 200px;
+}
+
+
+
+}
+.afternoonContainer{
+    display: flex;
+    gap: 54px;
+    padding-top: 200px;
+}
+
+.afternoonBorder{
+    border: 2.10019px solid #C3A25D;
+border-radius: 0 0 350px 0;
+position: absolute;
+width: 500px;
+height: 320px;
+left: 20px;
+bottom:  -20px;
+
+}
+.afternoonImg{
+    position: relative;
+}
+.afternoonContent{
+    padding-right:125px;
+}
+.p2{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+letter-spacing: 0.08em;
+color: #3C5049;
+padding-top: 30px;
+
+}
+.p1{
+    font-weight: 600;
+font-size: 4vw;
+line-height: 64px;
+letter-spacing: 0.04em;
+color: #2A3833;
+}
+.afternoonButton{
+padding-top: 50px;
+}
+.afternoonButton button{
+    width: 157px;
+height: 46px;
+background: #3C5049;
+color: white;
+border: none;
+}

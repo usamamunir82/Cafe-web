@@ -1,0 +1,111 @@
+@media only screen and (max-width: 768px) {
+  .cofeeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -200px;
+    margin-left: -125px;
+  }
+  .cofeeContent p{
+font-size: 1em;
+  }
+  .coffeImg{
+    max-width: 300px;
+  }
+  .coffeBorder{
+    max-width: 300px;
+    max-height: 350px;
+  }
+ 
+
+}
+/* @media only screen and (max-width: 602px) {
+ 
+  .cofeeContainer {
+    margin: -100px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .Asian p{
+    font-size: 0.5em;
+  }
+
+} */
+.cofeeContainer {
+  padding-top: 50px;
+  display: flex;
+  max-width: 1160px;
+  justify-content: space-between;
+  padding-left: 130px;
+
+  gap: 50px;
+
+}
+.fCofee {
+  font-family: "Glamour Absolute";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.04em;
+
+  color: #2a3833;
+}
+.cofeePara{
+    padding-top: 20px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+letter-spacing: 0.08em;
+
+color: #3C5049;
+}
+.cofeeButon{
+padding-top: 40px;
+
+}
+.cofeeButon button{
+    
+    border: none;
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.08em;
+
+color: #FFFFFF;
+    width: 157px;
+height: 46px;
+background: #3C5049;
+}
+.cofeeImgBox {
+  position: relative;
+}
+.coffeImg {
+  border-radius: 0px 0px 400px 400px;
+}
+.coffeBorder {
+  bottom: 30px;
+  right: 30px;
+  width: 455px;
+  height: 550px;
+  border: 2px solid #c3a25d;
+  position: absolute;
+  border-radius: 0px 0px 400px 400px;
+}
+.cofeeContent{
+    padding-top: 110px;
+
+
+}
+.Asian{
+    margin-top: -55px;
+    font-family: 'Glamour Absolute';
+font-style: normal;
+font-weight: 400;
+font-size: 20vw;
+line-height: 229px;
+letter-spacing: 0.04em;
+color: rgba(60, 80, 73, 0.1);
+}
